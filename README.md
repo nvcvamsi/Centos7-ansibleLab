@@ -34,13 +34,13 @@ https://www.vagrantup.com/downloads
 
 1) Clone the Git reporistory into  local machine.
 
-  git clone  https://github.com/nvcvamsi/ansibleLabSetup.git
+     git clone  https://github.com/nvcvamsi/ansibleLabSetup.git
 
 2) Launch Oracl VM Virtual Box Manager application.
 
-3) Now switch to local repo and initialise provisioning boxes.
+3) Now CMD(coomand line toll) switch to local repo and initialise provisioning boxes.
 
-cd <git copied local path>\ansibleLabSetup > vagrant up
+    cd <git copied local path>\ansibleLabSetup > vagrant up
   
 it will take  10-15 minutes to provision all the boxes and initialization to complete.
   
