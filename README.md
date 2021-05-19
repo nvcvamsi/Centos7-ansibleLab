@@ -1,4 +1,4 @@
-# This is a simple Ansible lab setup having 1 master and 2 node members.
+# This is a simple Ansible lab setup having 1 master and 2 worker Nodes.
 
 Below will be the IP Address and node name.
 192.168.36.2   ansibleserver
@@ -18,7 +18,7 @@ Worker Node:
 
 
 
-Pre-requisite:
+**Pre-requisite:**
 
 Below link download the  virtualBox binaries and install w.r.t hosting machine.
 https://www.virtualbox.org/wiki/Downloads
@@ -28,20 +28,15 @@ Donwload the Vagrant binary from below link and install w.r.t host machine compa
 https://www.vagrantup.com/downloads
 
 
-2) Clone the Git reporistory into  local machine
+**Privisioning Nodes**
+
+1) Clone the Git reporistory into  local machine
   git clone  https://github.com/nvcvamsi/ansibleLabSetup.git
 
-3) Launch Oracl VM Virtual Box Manager application.
+2) Launch Oracl VM Virtual Box Manager application.
 
-4) Now switch to local repo and initialise provisioning boxes.
+3) Now switch to local repo and initialise provisioning boxes.
 cd <git copied local path>\ansibleLabSetup > vagrant up
 it will take  10-15 minutes to provision all the boxes and initialization to complete.
   
-Finally we will be able to see all three nodes in running status in oracle Virtualbox VM Manager.
-
-  
-
-  
-
-  
-  
+Finally we will be able to see all three nodes in running status in oracle Virtualbox VM Manager. 
