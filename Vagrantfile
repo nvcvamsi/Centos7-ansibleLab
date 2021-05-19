@@ -61,7 +61,7 @@ Vagrant.configure("2") do |config|
     config.vm.define "ansiblenode0#{i}" do |node|
         node.vm.provider "virtualbox" do |vb|
             vb.name = "ansiblenode0#{i}"
-            vb.memory = 2048
+            vb.memory = 1024
             vb.cpus = 2
         end
         node.vm.hostname = "ansiblenode0#{i}"
@@ -84,7 +84,7 @@ Vagrant.configure("2") do |config|
         # Name shown in the GUI
         node.vm.provider "virtualbox" do |vb|
             vb.name = "ansiblemaster"
-            vb.memory = 4096
+            vb.memory = 2096
             vb.cpus = 2
         end
         node.vm.hostname = "ansiblemaster"
