@@ -1,4 +1,4 @@
-# This is a simple Ansible lab setup having 1 master and 2 worker Nodes.
+# A simple Ansible lab setup having 1 master and 2 worker Nodes.
 
 Below will be the IP Address and node name.
 192.168.36.2   ansibleserver
