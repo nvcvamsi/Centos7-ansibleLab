@@ -21,22 +21,27 @@ Worker Node:
 **Pre-requisite:**
 
 Below link download the  virtualBox binaries and install w.r.t hosting machine.
+
 https://www.virtualbox.org/wiki/Downloads
 
 
 Donwload the Vagrant binary from below link and install w.r.t host machine compatible OS platform.
+
 https://www.vagrantup.com/downloads
 
 
 **Privisioning Nodes**
 
-1) Clone the Git reporistory into  local machine
+1) Clone the Git reporistory into  local machine.
+
   git clone  https://github.com/nvcvamsi/ansibleLabSetup.git
 
 2) Launch Oracl VM Virtual Box Manager application.
 
 3) Now switch to local repo and initialise provisioning boxes.
+
 cd <git copied local path>\ansibleLabSetup > vagrant up
+  
 it will take  10-15 minutes to provision all the boxes and initialization to complete.
   
 Finally we will be able to see all three nodes in running status in oracle Virtualbox VM Manager. 
